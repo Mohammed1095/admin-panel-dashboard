@@ -1,0 +1,50 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 2.5rem;
+  z-index: 999;
+  padding: 1rem;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  color: #190019;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.header-icons-container {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  gap: 1rem;
+}
+.icon {
+  color: #444;
+  position: relative;
+  cursor: pointer;
+}
+.notification-badge {
+  background-color: red;
+  font-size: 0.8rem;
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  color: white;
+  top: -0.5rem;
+  left: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
