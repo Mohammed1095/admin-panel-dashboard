@@ -1,3 +1,5 @@
+import male from '../assets/images/male-avatar.jpg';
+
 export const usersData = [
   {
     name: 'Jan',
@@ -46,5 +48,87 @@ export const usersData = [
   {
     name: 'Dec',
     ActiveUsers: 6490,
+  },
+];
+export const userRows = [
+  {
+    id: 1,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
+  },
+  {
+    id: 2,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
+  },
+  {
+    id: 3,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
+  },
+  {
+    id: 4,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
+  },
+  {
+    id: 5,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
+  },
+  {
+    id: 6,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
+  },
+  {
+    id: 7,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
+  },
+  {
+    id: 8,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
+  },
+  {
+    id: 9,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
+  },
+  {
+    id: 10,
+    userName: 'Jon Snow',
+    avatar: male,
+    email: 'jon@gmail.com',
+    status: 'active',
+    transactions: '$ 150.00',
   },
 ];
