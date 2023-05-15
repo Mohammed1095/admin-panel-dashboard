@@ -13,7 +13,7 @@ import {
   PermIdentity,
   AttachMoney,
   Storefront,
-} from '@material-ui/icons';
+} from '@mui/icons-material';
 
 export default function Sidebar() {
   return (

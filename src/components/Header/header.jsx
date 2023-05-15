@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import { Settings, Notifications, Language } from '@material-ui/icons';
+import { Settings, Notifications, Language } from '@mui/icons-material';
 import male from '../../assets/images/male-avatar.jpg';
 
 export default function header() {
