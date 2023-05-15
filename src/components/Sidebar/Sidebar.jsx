@@ -44,7 +44,10 @@ export default function Sidebar() {
               </Link>
             </li>
             <li className="sidebar-list-item">
-              <Storefront className="sidebar-icon" /> Products
+              <Link to="/products" className="sidebarLink">
+                {' '}
+                <Storefront className="sidebar-icon" /> Products
+              </Link>
             </li>
             <li className="sidebar-list-item">
               <AttachMoney className="sidebar-icon" /> Transactions
