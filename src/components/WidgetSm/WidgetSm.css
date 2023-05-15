@@ -5,3 +5,51 @@
   padding: 2rem;
   margin-right: 2rem;
 }
+.widgetSmTitle {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.widgetSmImg {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.widgetSmList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.widgetSmListItem {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.widgetSmUser {
+  display: flex;
+  flex-direction: column;
+}
+.widgetSmUsername {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.widgetSmUserTitle {
+  font-weight: 300;
+}
+
+.widgetSmButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.widgetSmIcon {
+  margin-right: 0.5rem;
+}
