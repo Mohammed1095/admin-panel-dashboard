@@ -37,6 +37,14 @@
   background-color: rgb(240, 240, 255);
 }
 
+.sidebarLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
 .sidebar-icon {
   margin-right: 0.5rem;
   font-size: 2rem !important;

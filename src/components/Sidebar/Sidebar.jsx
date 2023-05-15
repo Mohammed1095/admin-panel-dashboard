@@ -22,8 +22,10 @@ export default function Sidebar() {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Dashboard</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item active">
-              <LineStyle className="sidebar-icon" /> Home
+            <li className="sidebar-list-item ">
+              <Link to="/" className="sidebarLink">
+                <LineStyle className="sidebar-icon" /> Home{' '}
+              </Link>
             </li>
             <li className="sidebar-list-item">
               <Timeline className="sidebar-icon" /> Analytics
@@ -36,8 +38,10 @@ export default function Sidebar() {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Quick Menu</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item ">
-              <PermIdentity className="sidebar-icon" /> Users
+            <li className="sidebar-list-item">
+              <Link to="/users" className="sidebarLink">
+                <PermIdentity className="sidebar-icon" /> Users
+              </Link>
             </li>
             <li className="sidebar-list-item">
               <Storefront className="sidebar-icon" /> Products
