@@ -6,7 +6,7 @@ import {
   PermIdentity,
   PhoneAndroid,
   Publish,
-} from '@material-ui/icons';
+} from '@mui/material';
 import { Link } from 'react-router-dom';
 import male from '../../assets/images/male-avatar.jpg';
 

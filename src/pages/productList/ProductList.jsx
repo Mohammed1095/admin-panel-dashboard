@@ -1,6 +1,6 @@
 import './productList.css';
-import { DataGrid } from '@material-ui/data-grid';
-import { DeleteOutline } from '@material-ui/icons';
+import { DataGrid } from '@mui/material';
+import { DeleteOutline } from '@mui/material';
 import { productData } from '../../components/dummyData.js';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
