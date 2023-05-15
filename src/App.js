@@ -10,6 +10,8 @@ import ProductList from './pages/productList/ProductList.jsx';
 import Product from './pages/product/Product.jsx';
 import NewProduct from './pages/newProduct/NewProduct.jsx';
 
+/*test */
+
 function App() {
   return (
     <div>
