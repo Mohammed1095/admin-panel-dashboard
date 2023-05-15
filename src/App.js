@@ -9,7 +9,6 @@ import NewUser from './pages/newUser/NewUser.jsx';
 import ProductList from './pages/productList/ProductList.jsx';
 import Product from './pages/product/Product.jsx';
 import NewProduct from './pages/newProduct/NewProduct.jsx';
-//
 
 function App() {
   return (
